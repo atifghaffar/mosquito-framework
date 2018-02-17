@@ -1,0 +1,22 @@
+{
+    "name": "mosquito/framework",
+    "description": "A tiny framework for create robust websites and applications",
+    "license": "DBAD",
+    "authors": [
+        {
+            "name": "Atif Ghaffar",
+            "email": "atif.ghaffar@gmail.com"
+        }
+    ],
+    "type": "project",
+    "require": {
+		"php": ">=5.4"
+    },
+	"require-dev": {
+    },
+	"autoload": {
+        "psr-4": {
+            "Mosquito\\Framework\\": "src/Mosquito/Framework/"
+        }
+    }
+}
